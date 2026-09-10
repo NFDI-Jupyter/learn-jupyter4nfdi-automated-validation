@@ -10,6 +10,7 @@ project:
   toc:
     - file: modules/01_introduction.md
     - file: modules/02_repo2docker.md
+    - file: modules/02_repo2docker.md
 
   # In-page execution (the "power" button at the top of the page) using Thebe
   jupyter:
