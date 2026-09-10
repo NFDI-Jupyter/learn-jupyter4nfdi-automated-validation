@@ -1,20 +1,20 @@
 version: 1
 
 project:
-  title: TRAINING MATERIALS TITLE
-  github: https://github.com/NFDI-Jupyter/REPOSITORY
+  title: Automated notebook validation with Jupyter4NFDI
+  github: https://github.com/apawlik/learn-jupyter4nfdi-automated-validation
   authors:
-    - name: AUTHOR'S NAME
-      orcid: AUTHOR'S ORCID
+    - name: Aleksandra Pawlik
+      orcid: https://orcid.org/0000-0001-8418-6735
 
   toc:
-    - file: modules/01_MODULE
-
+    - file: modules/01_introduction.md
+    - file: modules/02_repo2docker.md
 
   # In-page execution (the "power" button at the top of the page) using Thebe
   jupyter:
     binder:
-      repo: NFDI-Jupyter/REPOSITORY
+      repo: apawlik/learn-jupyter4nfdi-automated-validation
       provider: github
       ref: main
 
