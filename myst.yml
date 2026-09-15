@@ -12,6 +12,7 @@ project:
     - file: modules/02_repo2docker.md
     - file: modules/03_create_gh_action.md
     - file: modules/04_results.md
+    - file: modules/05_fix_failed_validation.md
 
   # In-page execution (the "power" button at the top of the page) using Thebe
   jupyter:
